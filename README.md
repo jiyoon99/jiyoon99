@@ -6,14 +6,17 @@
 
 AI를 실제 도구와 운영 흐름에 연결하는 개발을 하고 있습니다.  
 Linux 모니터링, 로컬 LLM 분석, Docker 상태 점검, Windows 검수 자동화처럼  
-반복 작업을 줄이고 판단을 빠르게 만드는 프로젝트에 관심이 있습니다.
+반복 작업을 줄이고 판단을 빠르게 만드는 프로젝트에 관심이 있습니다.  
 Unity와 C#으로 만든 게임 결과물도 실행 가능한 포트폴리오 형태로 정리하고 있습니다.
 
 <br />
 
-![Profile Views](https://komarev.com/ghpvc/?username=jiyoon99&style=for-the-badge&color=0ea5e9)
-![GitHub Followers](https://img.shields.io/github/followers/jiyoon99?style=for-the-badge&logo=github&color=181717)
-![GitHub Stars](https://img.shields.io/github/stars/jiyoon99?style=for-the-badge&logo=github&color=facc15)
+<p>
+  <img src="https://img.shields.io/badge/AI%20Tools-0EA5E9?style=flat-square" />
+  <img src="https://img.shields.io/badge/Linux%20Ops-111827?style=flat-square&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Automation-2563EB?style=flat-square" />
+  <img src="https://img.shields.io/badge/Unity%20C%23-000000?style=flat-square&logo=unity&logoColor=white" />
+</p>
 
 </div>
 
