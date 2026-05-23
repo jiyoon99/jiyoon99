@@ -153,59 +153,59 @@ Linux 서버 모니터링, 로컬 AI 분석, AI-assisted 개발 워크플로우,
 
 ### Linux Chess Portfolio
 
-- 브라우저가 아니라 서버가 게임 상태를 책임지는 이유
+- 서버 중심 게임 상태 관리
 - WebSocket 연결과 방 코드 기반 매칭 구조
-- Docker Compose로 개발/운영 구성을 나눈 방식
-- Prometheus/Grafana로 어떤 지표를 보고 장애를 판단하는지
+- Docker Compose 기반 개발/운영 환경 구성
+- Prometheus/Grafana 지표 기반 상태 확인
 
 ### Linux System Monitor
 
-- `/proc`, `/sys`, Docker socket에서 운영 정보를 가져오는 방식
-- 컨테이너 내부에서 호스트 리소스를 읽을 때 필요한 volume/network 설정
-- 수치만 보여주는 대시보드가 아니라 경고 판단까지 넣은 이유
-- 로컬 LLM을 운영 보조 도구로 연결할 때 timeout과 모델 상태를 다룬 방식
+- `/proc`, `/sys`, Docker socket 기반 운영 정보 수집
+- 컨테이너에서 호스트 리소스를 읽기 위한 volume/network 설정
+- 단순 수치 표시를 넘어선 경고 판단 로직
+- 로컬 LLM 연동 시 timeout과 모델 상태 처리
 
 ### Linux Desktop Widget
 
-- CLI 확인 작업을 계속 반복하지 않도록 GUI 위젯으로 만든 이유
-- `GLib.timeout_add()`로 UI를 멈추지 않고 상태를 갱신한 방식
-- Docker socket activation 때문에 서비스 상태 판단이 단순하지 않았던 점
-- 작은 도구도 실행, 종료, 자동 실행까지 고려해야 실제로 쓰기 좋다는 점
+- 반복적인 CLI 확인 작업을 줄이는 데스크톱 위젯
+- `GLib.timeout_add()` 기반 비동기 상태 갱신
+- Docker socket activation을 고려한 서비스 상태 판단
+- 실행, 종료, 자동 실행까지 포함한 작은 도구의 사용성
 
 ### Linux Web Log SQL Analyzer
 
-- 로그 파일을 바로 보는 것과 DB에 적재해 분석하는 것의 차이
-- status code, path, IP, 시간대별 집계가 운영에서 어떤 의미를 갖는지
-- 샘플 데이터와 실제 `/var/log/nginx/access.log`를 모두 다룰 수 있게 만든 이유
-- CLI 명령을 작게 나눠 재실행 가능한 분석 흐름으로 만든 방식
+- 로그 파일 직접 확인과 DB 적재 분석의 차이
+- status code, path, IP, 시간대별 집계의 운영 의미
+- 샘플 데이터와 실제 `/var/log/nginx/access.log` 입력 지원
+- 재실행 가능한 작은 CLI 명령 단위
 
 ### Inspection Automation
 
-- 노트북 검수 절차를 자동 진단, 수동 확인, 최종 판정으로 나눈 이유
-- WMI/CIM과 `powercfg`로 모델명, 시리얼, 배터리, 장치 상태를 수집한 방식
-- `정상 / 주의 / 불량`과 `합격 / 재검수 / 불합격` 판정 규칙을 분리한 이유
-- 실제 시리얼, 검수 이력, 리포트 파일을 공개 저장소에서 제외한 방식
+- 자동 진단, 수동 확인, 최종 판정으로 나눈 검수 흐름
+- WMI/CIM과 `powercfg` 기반 모델명, 시리얼, 배터리, 장치 상태 수집
+- `정상 / 주의 / 불량`과 `합격 / 재검수 / 불합격` 판정 규칙 분리
+- 실제 시리얼, 검수 이력, 리포트 파일의 공개 저장소 제외
 
 ### Driver Check Helper
 
-- 드라이버를 자동 설치하지 않고 문제 장치와 검색 경로를 정리하는 도구로 범위를 제한한 이유
-- Hardware ID, 제조사, 모델 정보를 이용해 지원 페이지와 Update Catalog 검색 링크를 만든 방식
+- 드라이버 자동 설치 대신 문제 장치와 검색 경로 정리에 집중한 범위 설정
+- Hardware ID, 제조사, 모델 기반 지원 페이지와 Update Catalog 검색 링크 생성
 - GUI와 콘솔 실행 경로가 같은 분석 로직을 사용하도록 나눈 구조
-- Pester 테스트와 샘플 리포트로 PowerShell 프로젝트를 검토 가능하게 만든 방식
+- Pester 테스트와 샘플 리포트를 통한 검토 가능한 PowerShell 프로젝트 구성
 
 ### USB QC Automation
 
-- 출고 전 QC 체크리스트를 터미널 대시보드 흐름으로 묶은 이유
-- Batch 안에서 PowerShell 명령을 호출해 배터리, 장치, 시스템 정보를 확인한 방식
-- 일반 장비와 렌탈 장비의 점검 흐름을 별도 스크립트로 분리한 이유
-- BIOS 재부팅처럼 영향이 큰 동작을 작업자 선택 뒤 실행하도록 둔 이유
+- 출고 전 QC 체크리스트를 하나로 묶은 터미널 대시보드
+- Batch 안에서 PowerShell 명령을 호출하는 배터리, 장치, 시스템 정보 확인
+- 일반 장비와 렌탈 장비의 점검 흐름 분리
+- BIOS 재부팅처럼 영향이 큰 동작의 작업자 선택 실행
 
 ### Unity Game Portfolio
 
-- Unity C#으로 2D 게임 루프를 구현하면서 플레이어, 적, 무기, 아이템, HUD를 나눈 방식
-- `VamGame`에서 적 스폰, 무기 처리, 레벨업, 오브젝트 풀링을 설명할 수 있는 이유
-- 빌드 파일, Unity package, 게임별 README를 분리해 포트폴리오로 정리한 방식
-- GitHub에서는 Unity가 언어가 아니라 엔진이므로 C#과 문서/빌드 중심으로 보여주는 이유
+- Unity C# 기반 2D 게임 루프 구현
+- 플레이어, 적, 무기, 아이템, HUD 역할 분리
+- `VamGame`의 적 스폰, 무기 처리, 레벨업, 오브젝트 풀링 구조
+- 빌드 파일, Unity package, 게임별 README를 분리한 포트폴리오 구성
 
 ## Strengths
 
