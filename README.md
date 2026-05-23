@@ -158,10 +158,10 @@ currently_building:
 ## Latest Work
 
 <!-- BLOG-POST-LIST:START -->
-- Building Linux monitoring tools with local AI analysis
-- Connecting Ollama status and model checks to practical dashboards
-- Automating Windows hardware inspection and driver report workflows
-- Organizing Unity C# game projects as a playable portfolio
+- 로컬 AI 분석을 연결한 Linux 모니터링 도구 개발
+- Ollama 상태와 모델 점검을 실용적인 대시보드로 연결
+- Windows 하드웨어 검수와 드라이버 리포트 자동화
+- Unity C# 게임 프로젝트를 실행 가능한 포트폴리오로 정리
 <!-- BLOG-POST-LIST:END -->
 
 ## Direction
