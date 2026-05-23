@@ -79,33 +79,54 @@ currently_building:
 | [driver-check-helper](https://github.com/jiyoon99/driver-check-helper) | Windows 장치/드라이버 상태 점검 및 검색 리포트 생성 도구 | PowerShell, Windows GUI |
 | [usb-qc-automation](https://github.com/jiyoon99/usb-qc-automation) | USB 및 하드웨어 QC 과정을 터미널 대시보드로 자동화 | Batch, PowerShell |
 
-## Project Cards
+## Portfolio Highlights
 
-<div align="center">
-
-<a href="https://github.com/jiyoon99/linux-system-monitor">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jiyoon99&repo=linux-system-monitor&theme=github_dark&hide_border=true" />
-</a>
-<a href="https://github.com/jiyoon99/linux-desktop-widget">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jiyoon99&repo=linux-desktop-widget&theme=github_dark&hide_border=true" />
-</a>
-<a href="https://github.com/jiyoon99/linux-chess-portfolio">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jiyoon99&repo=linux-chess-portfolio&theme=github_dark&hide_border=true" />
-</a>
-<a href="https://github.com/jiyoon99/inspection-automation">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jiyoon99&repo=inspection-automation&theme=github_dark&hide_border=true" />
-</a>
-
-</div>
-
-## GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=jiyoon99&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jiyoon99&layout=compact&theme=github_dark&hide_border=true" />
-
-</div>
+<table>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/jiyoon99/linux-system-monitor">linux-system-monitor</a></h3>
+      <p>Linux 서버 상태, Docker 상태, Ollama 로컬 AI 분석을 제공하는 모니터링 대시보드입니다.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/jiyoon99/linux-desktop-widget">linux-desktop-widget</a></h3>
+      <p>Docker, 로컬 서비스, Ollama 상태를 데스크톱에서 확인하는 GTK 위젯입니다.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/GTK-7FE719?style=flat-square&logo=gtk&logoColor=black" />
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+        <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/jiyoon99/linux-chess-portfolio">linux-chess-portfolio</a></h3>
+      <p>실시간 체스 서비스를 기반으로 정리한 백엔드 및 Linux 운영 포트폴리오입니다.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+        <img src="https://img.shields.io/badge/WebSocket-111827?style=flat-square&logo=socketdotio&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/jiyoon99/inspection-automation">inspection-automation</a></h3>
+      <p>노트북 검수 과정을 GUI와 리포트 중심으로 자동화한 Windows 도구입니다.</p>
+      <p>
+        <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
+        <img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white" />
+        <img src="https://img.shields.io/badge/Automation-0EA5E9?style=flat-square" />
+        <img src="https://img.shields.io/badge/Reports-111827?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ## Latest Work
 
@@ -127,6 +148,9 @@ currently_building:
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=jiyoon99&theme=github-dark&hide_border=true&area=true)
+![Python](https://img.shields.io/badge/Main-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Linux](https://img.shields.io/badge/Platform-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![AI](https://img.shields.io/badge/Focus-AI%20Tools-0EA5E9?style=for-the-badge)
+![Automation](https://img.shields.io/badge/Build-Automation-111827?style=for-the-badge)
 
 </div>
