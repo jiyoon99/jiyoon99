@@ -2,11 +2,12 @@
 
 # jiyoon99
 
-### AI Integration · Linux Ops · Backend · Automation
+### AI Integration · Linux Ops · Backend · Automation · Unity Game Dev
 
 AI를 실제 도구와 운영 흐름에 연결하는 개발을 하고 있습니다.  
 Linux 모니터링, 로컬 LLM 분석, Docker 상태 점검, Windows 검수 자동화처럼  
 반복 작업을 줄이고 판단을 빠르게 만드는 프로젝트에 관심이 있습니다.
+Unity와 C#으로 만든 게임 결과물도 실행 가능한 포트폴리오 형태로 정리하고 있습니다.
 
 <br />
 
@@ -28,10 +29,12 @@ focus:
   - Local LLM integration with Ollama
   - Docker-based backend services
   - Windows hardware inspection automation
+  - Unity game development with C#
 currently_building:
   - Linux monitoring dashboard with local AI analysis
   - Desktop widget for Docker and Ollama status
   - Practical automation tools with reports and docs
+  - Unity game portfolio with playable Windows builds
 ```
 
 ## Tech Stack
@@ -66,6 +69,7 @@ currently_building:
   <img src="https://img.shields.io/badge/GTK-7FE719?style=for-the-badge&logo=gtk&logoColor=black" />
   <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
 </p>
 
 ## Featured Projects
@@ -78,6 +82,7 @@ currently_building:
 | [inspection-automation](https://github.com/jiyoon99/inspection-automation) | 노트북 검수 과정을 GUI와 리포트 중심으로 자동화한 도구 | PowerShell, Windows Forms, WMI/CIM |
 | [driver-check-helper](https://github.com/jiyoon99/driver-check-helper) | Windows 장치/드라이버 상태 점검 및 검색 리포트 생성 도구 | PowerShell, Windows GUI |
 | [usb-qc-automation](https://github.com/jiyoon99/usb-qc-automation) | USB 및 하드웨어 QC 과정을 터미널 대시보드로 자동화 | Batch, PowerShell |
+| [unity-game-portfolio](https://github.com/jiyoon99/unity-game-portfolio) | Unity 학습 과정에서 만든 2D 게임과 Windows 실행 빌드를 정리한 게임 포트폴리오 | Unity, C#, Windows Build |
 
 ## Portfolio Highlights
 
@@ -126,6 +131,28 @@ currently_building:
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/jiyoon99/unity-game-portfolio">unity-game-portfolio</a></h3>
+      <p>Unity와 C#으로 만든 2D 게임 결과물을 실행 가능한 Windows 빌드와 문서로 정리한 포트폴리오입니다.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white" />
+        <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+        <img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white" />
+        <img src="https://img.shields.io/badge/Game%20Dev-111827?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/jiyoon99/usb-qc-automation">usb-qc-automation</a></h3>
+      <p>USB 및 하드웨어 QC 과정을 터미널 대시보드로 자동화한 도구입니다.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Batch-111827?style=flat-square" />
+        <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
+        <img src="https://img.shields.io/badge/QC-0EA5E9?style=flat-square" />
+        <img src="https://img.shields.io/badge/Automation-111827?style=flat-square" />
+      </p>
+    </td>
+  </tr>
 </table>
 
 ## Latest Work
@@ -134,6 +161,7 @@ currently_building:
 - Building Linux monitoring tools with local AI analysis
 - Connecting Ollama status and model checks to practical dashboards
 - Automating Windows hardware inspection and driver report workflows
+- Organizing Unity C# game projects as a playable portfolio
 <!-- BLOG-POST-LIST:END -->
 
 ## Direction
@@ -142,6 +170,7 @@ currently_building:
 - Linux 서버 상태를 빠르게 판단할 수 있는 대시보드 구성
 - Docker 기반 실행 환경과 운영 문서 정리
 - Windows 장비 검수와 리포트 자동화
+- Unity와 C# 기반 게임 결과물 문서화
 - 실행 가능한 포트폴리오 중심으로 프로젝트 개선
 
 ---
@@ -152,5 +181,6 @@ currently_building:
 ![Linux](https://img.shields.io/badge/Platform-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![AI](https://img.shields.io/badge/Focus-AI%20Tools-0EA5E9?style=for-the-badge)
 ![Automation](https://img.shields.io/badge/Build-Automation-111827?style=for-the-badge)
+![Unity](https://img.shields.io/badge/Game-Unity%20C%23-000000?style=for-the-badge&logo=unity&logoColor=white)
 
 </div>
