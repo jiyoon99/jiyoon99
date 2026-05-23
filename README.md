@@ -1,6 +1,6 @@
 <div align="center">
 
-# jiyoon99
+# 박지윤
 
 ### Backend · Linux Ops · Automation · Unity C# Game Development
 
