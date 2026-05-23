@@ -2,14 +2,15 @@
 
 # 박지윤
 
-### Backend · Linux Ops · Automation · Unity C# Game Development
+### Backend · Linux Ops · AI-Assisted Automation · Unity C# Game Development
 
 반복되는 점검, 모니터링, 운영 업무를 자동화 도구와 대시보드로 바꾸는 개발을 하고 있습니다.  
-Linux 서버 모니터링, 로컬 AI 분석, Windows 장비 검수 자동화, Unity C# 게임 프로젝트를 포트폴리오로 정리했습니다.
+Linux 서버 모니터링, 로컬 AI 분석, AI-assisted 개발 워크플로우, Windows 장비 검수 자동화, Unity C# 게임 프로젝트를 포트폴리오로 정리했습니다.
 
 <p>
   <img src="https://img.shields.io/badge/Backend-111827?style=flat-square" />
   <img src="https://img.shields.io/badge/Linux%20Ops-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/AI%20Workflow-0EA5E9?style=flat-square" />
   <img src="https://img.shields.io/badge/Automation-2563EB?style=flat-square" />
   <img src="https://img.shields.io/badge/Unity%20C%23-000000?style=flat-square&logo=unity&logoColor=white" />
 </p>
@@ -22,15 +23,24 @@ Linux 서버 모니터링, 로컬 AI 분석, Windows 장비 검수 자동화, Un
 
 - 실무에서 반복되는 점검 절차를 자동화하고, 결과를 리포트로 남기는 도구를 직접 설계했습니다.
 - Linux, Docker, Ollama, FastAPI를 활용해 서버 상태를 관찰하고 판단을 돕는 대시보드를 구성했습니다.
+- AI를 코드 생성에만 쓰지 않고, 요구사항 정리, 디버깅, 문서화, 로그/상태 분석 보조 흐름에 연결해 사용합니다.
 - Windows PowerShell과 Windows Forms로 장비 검수, 드라이버 점검, QC 자동화 도구를 만들었습니다.
 - Unity와 C#으로 2D 게임 프로젝트를 구현하고, 실행 빌드와 문서 중심의 포트폴리오로 정리했습니다.
 
+## AI Workflow
+
+- ChatGPT/Codex를 활용해 요구사항을 작업 단위로 쪼개고, 구현 후 README와 실행 문서를 함께 정리합니다.
+- Ollama 기반 로컬 LLM을 Linux 모니터링 도구에 연결해 서버 상태 요약과 점검 보조 흐름을 구성했습니다.
+- AI가 만든 결과를 그대로 쓰지 않고, 실행 결과, 예외 케이스, 보안/개인정보 노출 여부를 검토한 뒤 반영합니다.
+- 반복적인 검색, 로그 해석, 리포트 초안 작성에 AI를 활용해 작업 속도를 높이고 검토 가능한 산출물로 남깁니다.
+
 ## For Interviewers
 
-빠르게 보실 때는 아래 세 가지 흐름으로 봐주시면 됩니다.
+빠르게 보실 때는 아래 네 가지 흐름으로 봐주시면 됩니다.
 
 | Focus | What to Check | Projects |
 | --- | --- | --- |
+| AI-Assisted Development | AI를 활용해 요구사항 정리, 코드 개선, 문서화, 로컬 LLM 분석 흐름을 만드는 방식 | [linux-system-monitor](https://github.com/jiyoon99/linux-system-monitor), [linux-desktop-widget](https://github.com/jiyoon99/linux-desktop-widget) |
 | Linux / Backend Ops | Docker 기반 실행, reverse proxy, 모니터링, 로그 분석, 운영 문서 | [linux-chess-portfolio](https://github.com/jiyoon99/linux-chess-portfolio), [linux-system-monitor](https://github.com/jiyoon99/linux-system-monitor), [linux-web-log-sql-analyzer](https://github.com/jiyoon99/linux-web-log-sql-analyzer) |
 | Local Productivity Tools | Linux 데스크톱에서 매번 확인하던 상태를 위젯/대시보드로 자동화 | [linux-desktop-widget](https://github.com/jiyoon99/linux-desktop-widget), [linux-system-monitor](https://github.com/jiyoon99/linux-system-monitor) |
 | Work Automation | 실제 장비 점검 반복 작업을 GUI, 리포트, 테스트가 있는 도구로 정리 | [driver-check-helper](https://github.com/jiyoon99/driver-check-helper), [inspection-automation](https://github.com/jiyoon99/inspection-automation), [usb-qc-automation](https://github.com/jiyoon99/usb-qc-automation) |
@@ -48,15 +58,72 @@ Linux 서버 모니터링, 로컬 AI 분석, Windows 장비 검수 자동화, Un
 
 ## Tech Stack
 
-| Area | Stack |
-| --- | --- |
-| Backend / AI | Python, FastAPI, Go, REST API, WebSocket, Ollama |
-| Linux / Infra | Linux, Docker, Docker Compose, nginx, Caddy, systemd |
-| Data / Runtime | PostgreSQL, Redis, SQLite, MySQL |
-| Monitoring | Prometheus, Grafana, Alertmanager, Chart.js, `/proc`, `/sys` |
-| Windows Automation | PowerShell, Windows Forms, WMI/CIM, Batch, Pester |
-| Game Development | Unity, C#, Windows Build |
-| Documentation | Markdown, JSON/HTML reports, project runbooks |
+### Backend / AI
+
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI%20%2F%20Codex-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI%20Prompting-0EA5E9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/REST%20API-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/WebSocket-111827?style=for-the-badge&logo=socketdotio&logoColor=white" />
+</p>
+
+### Linux / Infra
+
+<p>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Caddy-1F88C0?style=for-the-badge&logo=caddy&logoColor=white" />
+  <img src="https://img.shields.io/badge/systemd-111827?style=for-the-badge&logo=linux&logoColor=white" />
+</p>
+
+### Data / Runtime
+
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+</p>
+
+### Monitoring / Visualization
+
+<p>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Alertmanager-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/%2Fproc%20%2Fsys-111827?style=for-the-badge&logo=linux&logoColor=white" />
+</p>
+
+### Windows Automation / Desktop
+
+<p>
+  <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/Windows%20Forms-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/WMI%2FCIM-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Pester-7A1FA2?style=for-the-badge&logo=powershell&logoColor=white" />
+  <img src="https://img.shields.io/badge/GTK-7FE719?style=for-the-badge&logo=gtk&logoColor=black" />
+</p>
+
+### Game Development
+
+<p>
+  <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" />
+  <img src="https://img.shields.io/badge/2D%20Game-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Windows%20Build-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
+</p>
+
+### Documentation
+
+<p>
+  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
+  <img src="https://img.shields.io/badge/JSON%2FHTML%20Reports-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Runbooks-2563EB?style=for-the-badge" />
+</p>
 
 ## Linux Projects at a Glance
 
@@ -115,5 +182,6 @@ Linux 서버 모니터링, 로컬 AI 분석, Windows 장비 검수 자동화, Un
 ## Strengths
 
 - 반복 업무를 스크립트로 끝내지 않고, GUI, 리포트, 문서, 실행 방법까지 정리합니다.
+- AI를 빠른 초안 생성 도구로만 쓰지 않고, 구현 검토와 운영 판단을 돕는 워크플로우로 연결합니다.
 - 운영/검수 도구에서 실제 사용자가 놓치기 쉬운 예외와 개인정보 제거 흐름을 고려합니다.
 - 프로젝트별 목적, 실행 방법, 구현 포인트를 README에 남겨 검토자가 빠르게 확인할 수 있게 정리합니다.
