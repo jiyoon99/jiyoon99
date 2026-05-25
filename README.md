@@ -2,13 +2,14 @@
 
 # 박지윤
 
-### Backend · Linux Ops · AI-Assisted Automation · Unity C# Game Development
+### Backend · Java Spring Boot · Linux Ops · AI-Assisted Automation · Unity C# Game Development
 
 반복되는 점검, 모니터링, 운영 업무를 자동화 도구와 대시보드로 바꾸는 개발을 하고 있습니다.  
-Linux 서버 모니터링, 로컬 AI 분석, AI-assisted 개발 워크플로우, Windows 장비 검수 자동화, Unity C# 게임 프로젝트를 포트폴리오로 정리했습니다.
+Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 로컬 AI 분석, AI-assisted 개발 워크플로우, Windows 장비 검수 자동화, Unity C# 게임 프로젝트를 포트폴리오로 정리했습니다.
 
 <p>
   <img src="https://img.shields.io/badge/Backend-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/Java%20Spring-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux%20Ops-FCC624?style=flat-square&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/AI%20Workflow-0EA5E9?style=flat-square" />
   <img src="https://img.shields.io/badge/Automation-2563EB?style=flat-square" />
@@ -22,6 +23,7 @@ Linux 서버 모니터링, 로컬 AI 분석, AI-assisted 개발 워크플로우,
 ## Profile
 
 - 실무에서 반복되는 점검 절차를 자동화하고, 결과를 리포트로 남기는 도구를 직접 설계했습니다.
+- Java, Spring Boot, JPA, Thymeleaf를 활용해 회원, 카페 등록, 이미지 업로드, 장바구니, 주문 흐름이 있는 웹 서비스를 구현했습니다.
 - Linux, Docker, Ollama, FastAPI를 활용해 서버 상태를 관찰하고 판단을 돕는 대시보드를 구성했습니다.
 - AI를 코드 생성에만 쓰지 않고, 요구사항 정리, 디버깅, 문서화, 로그/상태 분석 보조 흐름에 연결해 사용합니다.
 - Windows PowerShell과 Windows Forms로 장비 검수, 드라이버 점검, QC 자동화 도구를 만들었습니다.
@@ -40,6 +42,7 @@ Linux 서버 모니터링, 로컬 AI 분석, AI-assisted 개발 워크플로우,
 
 | Focus | What to Check | Projects |
 | --- | --- | --- |
+| Java / Spring Backend | 회원, 인증/인가, JPA 엔티티 설계, DB 관계, 이미지 업로드, Thymeleaf 화면 구성 | [shop - EAT US](https://github.com/jiyoon99/shop) |
 | AI-Assisted Development | AI를 활용해 요구사항 정리, 코드 개선, 문서화, 로컬 LLM 분석 흐름을 만드는 방식 | [linux-system-monitor](https://github.com/jiyoon99/linux-system-monitor), [linux-desktop-widget](https://github.com/jiyoon99/linux-desktop-widget) |
 | Linux / Backend Ops | Docker 기반 실행, reverse proxy, 모니터링, 로그 분석, 운영 문서 | [linux-chess-portfolio](https://github.com/jiyoon99/linux-chess-portfolio), [linux-system-monitor](https://github.com/jiyoon99/linux-system-monitor), [linux-web-log-sql-analyzer](https://github.com/jiyoon99/linux-web-log-sql-analyzer) |
 | Local Productivity Tools | Linux 데스크톱에서 매번 확인하던 상태를 위젯/대시보드로 자동화 | [linux-desktop-widget](https://github.com/jiyoon99/linux-desktop-widget), [linux-system-monitor](https://github.com/jiyoon99/linux-system-monitor) |
@@ -48,6 +51,7 @@ Linux 서버 모니터링, 로컬 AI 분석, AI-assisted 개발 워크플로우,
 ## Languages
 
 <p>
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
@@ -61,6 +65,10 @@ Linux 서버 모니터링, 로컬 AI 분석, AI-assisted 개발 워크플로우,
 ### Backend / AI
 
 <p>
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" />
+  <img src="https://img.shields.io/badge/JPA-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
   <img src="https://img.shields.io/badge/OpenAI%20%2F%20Codex-412991?style=for-the-badge&logo=openai&logoColor=white" />
@@ -140,6 +148,7 @@ Linux 서버 모니터링, 로컬 AI 분석, AI-assisted 개발 워크플로우,
 
 | Project | What It Shows | Stack |
 | --- | --- | --- |
+| [shop - EAT US](https://github.com/jiyoon99/shop) | 음식점/카페 정보 공유 웹사이트를 포트폴리오 형태로 정리한 Java Spring Boot 프로젝트. 회원, 인증/인가, JPA DB 설계, 이미지 업로드, 장바구니/주문 흐름 포함 | Java, Spring Boot, Spring Security, JPA, QueryDSL, Thymeleaf, MySQL |
 | [linux-system-monitor](https://github.com/jiyoon99/linux-system-monitor) | Linux 서버, Docker, Ollama 상태를 한 화면에서 확인하고 로컬 AI 분석으로 운영 판단을 돕는 대시보드 | Python, FastAPI, Docker, nginx, Chart.js, Ollama |
 | [linux-desktop-widget](https://github.com/jiyoon99/linux-desktop-widget) | Docker/Ollama/로컬 서비스 상태를 데스크톱 위젯으로 빠르게 확인하는 Linux 운영 도구 | Python, GTK, Linux, Docker, Ollama |
 | [linux-chess-portfolio](https://github.com/jiyoon99/linux-chess-portfolio) | 실시간 WebSocket 서비스와 DB/캐시 구성을 포함한 백엔드 운영 포트폴리오 | Go, WebSocket, PostgreSQL, Redis, Docker |
@@ -150,6 +159,14 @@ Linux 서버 모니터링, 로컬 AI 분석, AI-assisted 개발 워크플로우,
 | [unity-game-portfolio](https://github.com/jiyoon99/unity-game-portfolio) | Unity C# 기반 2D 게임 결과물을 실행 빌드와 구현 문서로 정리한 게임 개발 포트폴리오 | Unity, C#, Windows Build |
 
 ## Interview Notes
+
+### Shop - EAT US
+
+- Java 17, Spring Boot, Thymeleaf 기반 음식점/카페 정보 공유 웹사이트
+- 회원가입, 로그인, 회원 정보 수정, 관리자 카페 등록/수정 흐름 구현
+- `member`, `item`, `item_img`, `cart`, `orders`, `order_item` 중심의 JPA 엔티티 관계 설계
+- Spring Security 기반 인증/인가와 관리자 URL 권한 분리
+- README에 화면 미리보기, ERD, 주요 테이블, 발표용 PPT를 함께 정리
 
 ### Linux Chess Portfolio
 
