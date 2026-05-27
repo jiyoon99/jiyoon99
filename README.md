@@ -2,13 +2,14 @@
 
 # 박지윤
 
-### Backend · Java Spring Boot · Linux Ops · AI-Assisted Automation · Unity C# Game Development
+### Linux Kernel · Backend · Java Spring Boot · Linux Ops · AI-Assisted Automation · Unity C# Game Development
 
 반복되는 점검, 모니터링, 운영 업무를 자동화 도구와 대시보드로 바꾸는 개발을 하고 있습니다.  
-Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 로컬 AI 분석, AI-assisted 개발 워크플로우, Windows 장비 검수 자동화, Unity C# 게임 프로젝트를 포트폴리오로 정리했습니다.
+Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 로컬 AI 분석, AI-assisted 개발 워크플로우, Windows 장비 검수 자동화, Unity C# 게임 프로젝트를 포트폴리오로 정리했습니다.
 
 <p>
   <img src="https://img.shields.io/badge/Backend-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/Linux%20Kernel-0F172A?style=flat-square&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Java%20Spring-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux%20Ops-FCC624?style=flat-square&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/AI%20Workflow-0EA5E9?style=flat-square" />
@@ -22,6 +23,7 @@ Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 로컬 AI 분석, AI-
 
 ## Profile
 
+- Linux kernel module을 직접 구현해 `/proc`, character device, `ioctl`, `poll`, sysfs/debugfs/tracepoint까지 연결한 드라이버 lab을 만들었습니다.
 - 실무에서 반복되는 점검 절차를 자동화하고, 결과를 리포트로 남기는 도구를 직접 설계했습니다.
 - Java, Spring Boot, JPA, Thymeleaf를 활용해 회원, 카페 등록, 이미지 업로드, 장바구니, 주문 흐름이 있는 웹 서비스를 구현했습니다.
 - Linux, Docker, Ollama, FastAPI를 활용해 서버 상태를 관찰하고 판단을 돕는 대시보드를 구성했습니다.
@@ -42,6 +44,7 @@ Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 로컬 AI 분석, AI-
 
 | Focus | What to Check | Projects |
 | --- | --- | --- |
+| Linux Kernel / Driver | 커널 모듈, character device, ioctl ABI, poll stream, DKMS/Debian 패키징 | [kernel-proc-lab](https://github.com/jiyoon99/kernel-proc-lab) |
 | Java / Spring Backend | 회원, 인증/인가, JPA 엔티티 설계, DB 관계, 이미지 업로드, Thymeleaf 화면 구성 | [shop - EAT US](https://github.com/jiyoon99/shop) |
 | AI-Assisted Development | AI를 활용해 요구사항 정리, 코드 개선, 문서화, 로컬 LLM 분석 흐름을 만드는 방식 | [linux-system-monitor](https://github.com/jiyoon99/linux-system-monitor), [linux-desktop-widget](https://github.com/jiyoon99/linux-desktop-widget) |
 | Linux / Backend Ops | Docker 기반 실행, reverse proxy, 모니터링, 로그 분석, 운영 문서 | [linux-chess-portfolio](https://github.com/jiyoon99/linux-chess-portfolio), [linux-system-monitor](https://github.com/jiyoon99/linux-system-monitor), [linux-web-log-sql-analyzer](https://github.com/jiyoon99/linux-web-log-sql-analyzer) |
@@ -51,6 +54,7 @@ Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 로컬 AI 분석, AI-
 ## Languages
 
 <p>
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
@@ -61,6 +65,17 @@ Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 로컬 AI 분석, AI-
 </p>
 
 ## Tech Stack
+
+### Linux Kernel / Driver
+
+<p>
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux%20Kernel-0F172A?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/procfs-111827?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/ioctl%20ABI-06B6D4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/DKMS-111827?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Debian%20Package-A81D33?style=for-the-badge&logo=debian&logoColor=white" />
+</p>
 
 ### Backend / AI
 
@@ -139,6 +154,7 @@ Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 로컬 AI 분석, AI-
 
 | Project | Problem | Implementation | What It Shows |
 | --- | --- | --- | --- |
+| [Kernel Proc Lab](https://github.com/jiyoon99/kernel-proc-lab) | 커널 모듈을 단순 예제가 아니라 실제 관찰/제어 가능한 도구처럼 보여줄 프로젝트가 필요했습니다. | `/proc`, `/dev` character device, ioctl ABI v4, retained ring buffer, poll stream, `labtop` TUI, DKMS/Debian 패키징을 구현했습니다. | Linux kernel module, driver interface design, ABI/versioning, observability, packaging, release discipline |
 | [Linux Chess Portfolio](https://github.com/jiyoon99/linux-chess-portfolio) | 실시간 서비스를 Linux 환경에서 어떻게 운영할지 보여줄 프로젝트가 필요했습니다. | Go API, WebSocket, PostgreSQL, Redis, Docker Compose, reverse proxy, Prometheus/Grafana를 구성했습니다. | 백엔드 구조, 실시간 통신, DB/캐시, 배포/모니터링 문서화 |
 | [Linux System Monitor](https://github.com/jiyoon99/linux-system-monitor) | CPU/RAM/Disk/Docker/Ollama 상태를 매번 여러 명령어로 확인해야 했습니다. | FastAPI 대시보드, Docker socket 조회, nginx reverse proxy, Chart.js 그래프, Ollama API 연동을 만들었습니다. | Linux metrics 수집, Docker 운영 상태 확인, 로컬 AI API 연동 |
 | [Linux Desktop Widget](https://github.com/jiyoon99/linux-desktop-widget) | 개발 중 Docker와 Ollama가 켜져 있는지 터미널을 열지 않고 보고 싶었습니다. | Python GTK 위젯, 3초 자동 갱신, Docker/포트/Ollama 상태 체크, autostart 스크립트를 만들었습니다. | Linux 데스크톱 앱, 로컬 생산성 도구, 실행/종료 UX |
@@ -148,6 +164,7 @@ Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 로컬 AI 분석, AI-
 
 | Project | What It Shows | Stack |
 | --- | --- | --- |
+| [kernel-proc-lab](https://github.com/jiyoon99/kernel-proc-lab) | `/proc`, character device, ioctl, poll stream, TUI, DKMS/Debian 패키징까지 연결한 Linux kernel driver 포트폴리오 | C, Linux Kernel Module, ioctl, procfs, DKMS, Debian |
 | [shop - EAT US](https://github.com/jiyoon99/shop) | 음식점/카페 정보 공유 웹사이트를 포트폴리오 형태로 정리한 Java Spring Boot 프로젝트. 회원, 인증/인가, JPA DB 설계, 이미지 업로드, 장바구니/주문 흐름 포함 | Java, Spring Boot, Spring Security, JPA, QueryDSL, Thymeleaf, MySQL |
 | [linux-system-monitor](https://github.com/jiyoon99/linux-system-monitor) | Linux 서버, Docker, Ollama 상태를 한 화면에서 확인하고 로컬 AI 분석으로 운영 판단을 돕는 대시보드 | Python, FastAPI, Docker, nginx, Chart.js, Ollama |
 | [linux-desktop-widget](https://github.com/jiyoon99/linux-desktop-widget) | Docker/Ollama/로컬 서비스 상태를 데스크톱 위젯으로 빠르게 확인하는 Linux 운영 도구 | Python, GTK, Linux, Docker, Ollama |
@@ -159,6 +176,14 @@ Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 로컬 AI 분석, AI-
 | [unity-game-portfolio](https://github.com/jiyoon99/unity-game-portfolio) | Unity C# 기반 2D 게임 결과물을 실행 빌드와 구현 문서로 정리한 게임 개발 포트폴리오 | Unity, C#, Windows Build |
 
 ## Interview Notes
+
+### Kernel Proc Lab
+
+- `/proc` 상태 출력과 `/dev` character device를 분리한 이유
+- ioctl ABI에 version을 둔 이유와 구조체 layout을 테스트한 방식
+- kernel ring buffer에 최근 이벤트를 유지하고 `poll`로 새 메시지를 깨우는 흐름
+- DKMS, udev, systemd, logrotate, Debian package까지 붙인 이유
+- `labtop`이 모듈 빌드, 로드, device node 복구, TUI 실행을 자동화하는 방식
 
 ### Shop - EAT US
 
