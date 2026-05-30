@@ -44,7 +44,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
 
 | Focus | What to Check | Projects |
 | --- | --- | --- |
-| Linux Kernel / Driver | 커널 모듈, character device, ioctl ABI, poll stream, DKMS/Debian 패키징 | [kernel-proc-lab](https://github.com/jiyoon99/kernel-proc-lab) |
+| Linux Kernel / Driver | 커널 모듈, character device, ioctl ABI, poll stream, self-starting TUI, DKMS/Debian 패키징 | [kernel-proc-lab](https://github.com/jiyoon99/kernel-proc-lab) |
 | Java / Spring Backend | 회원, 인증/인가, JPA 엔티티 설계, DB 관계, 이미지 업로드, Thymeleaf 화면 구성 | [shop - EAT US](https://github.com/jiyoon99/shop) |
 | AI-Assisted Development | AI를 활용해 요구사항 정리, 코드 개선, 문서화, 로컬 LLM 분석 흐름을 만드는 방식 | [linux-system-monitor](https://github.com/jiyoon99/linux-system-monitor), [linux-desktop-widget](https://github.com/jiyoon99/linux-desktop-widget) |
 | Linux / Backend Ops | Docker 기반 실행, reverse proxy, 모니터링, 로그 분석, 운영 문서 | [linux-chess-portfolio](https://github.com/jiyoon99/linux-chess-portfolio), [linux-system-monitor](https://github.com/jiyoon99/linux-system-monitor), [linux-web-log-sql-analyzer](https://github.com/jiyoon99/linux-web-log-sql-analyzer) |
@@ -63,6 +63,21 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
   <img src="https://img.shields.io/badge/Batch-111827?style=for-the-badge&logo=windows-terminal&logoColor=white" />
   <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
 </p>
+
+## Skills Summary
+
+| Category | Skills |
+| --- | --- |
+| Programming | C, Java, Python, Go, C#, PowerShell, Batch, Bash, SQL, Markdown |
+| Linux Kernel | Linux Kernel Module, procfs, character device, ioctl ABI, poll, sysfs, debugfs, tracepoints, DKMS, udev, module signing |
+| Backend | Spring Boot, Spring Security, JPA, QueryDSL, Thymeleaf, FastAPI, REST API, WebSocket, Go backend |
+| Database | MySQL, PostgreSQL, Redis, SQLite, SQL aggregation, schema design, JPA entity modeling |
+| Linux / Infra | Linux, Docker, Docker Compose, nginx, Caddy, systemd, reverse proxy, shell automation |
+| Monitoring | Prometheus, Grafana, Alertmanager, Chart.js, `/proc`, `/sys`, Docker socket, terminal TUI, JSON/HTML reports |
+| Windows Automation | PowerShell, Windows Forms, WMI/CIM, Pester, Hardware ID analysis, driver status checks |
+| AI Workflow | ChatGPT, Codex, Ollama, local LLM integration, requirements breakdown, log analysis, code review support, documentation support |
+| Testing / Release | GitHub Actions, ShellCheck, smoke test, stress test, ABI layout test, release checklist, Debian packaging, GitHub Release |
+| Game / UI | Unity, C#, 2D game loop, GTK desktop widget, terminal dashboard, Windows Forms GUI |
 
 ## Tech Stack
 
@@ -154,7 +169,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
 
 | Project | Problem | Implementation | What It Shows |
 | --- | --- | --- | --- |
-| [Kernel Proc Lab](https://github.com/jiyoon99/kernel-proc-lab) | 커널 모듈을 단순 예제가 아니라 실제 관찰/제어 가능한 도구처럼 보여줄 프로젝트가 필요했습니다. | `/proc`, `/dev` character device, ioctl ABI v4, retained ring buffer, poll stream, `labtop` TUI, DKMS/Debian 패키징을 구현했습니다. | Linux kernel module, driver interface design, ABI/versioning, observability, packaging, release discipline |
+| [Kernel Proc Lab](https://github.com/jiyoon99/kernel-proc-lab) | 커널 모듈을 단순 예제가 아니라 실제 관찰/제어 가능한 도구처럼 보여줄 프로젝트가 필요했습니다. | `/proc`, `/dev` character device, ioctl ABI v4, retained ring buffer, poll stream, self-starting `labtop` TUI, JSONL collector, boot-time systemd setup, DKMS/Debian 패키징을 구현했습니다. | Linux kernel module, driver interface design, ABI/versioning, observability, packaging, release discipline |
 | [Linux Chess Portfolio](https://github.com/jiyoon99/linux-chess-portfolio) | 실시간 서비스를 Linux 환경에서 어떻게 운영할지 보여줄 프로젝트가 필요했습니다. | Go API, WebSocket, PostgreSQL, Redis, Docker Compose, reverse proxy, Prometheus/Grafana를 구성했습니다. | 백엔드 구조, 실시간 통신, DB/캐시, 배포/모니터링 문서화 |
 | [Linux System Monitor](https://github.com/jiyoon99/linux-system-monitor) | CPU/RAM/Disk/Docker/Ollama 상태를 매번 여러 명령어로 확인해야 했습니다. | FastAPI 대시보드, Docker socket 조회, nginx reverse proxy, Chart.js 그래프, Ollama API 연동을 만들었습니다. | Linux metrics 수집, Docker 운영 상태 확인, 로컬 AI API 연동 |
 | [Linux Desktop Widget](https://github.com/jiyoon99/linux-desktop-widget) | 개발 중 Docker와 Ollama가 켜져 있는지 터미널을 열지 않고 보고 싶었습니다. | Python GTK 위젯, 3초 자동 갱신, Docker/포트/Ollama 상태 체크, autostart 스크립트를 만들었습니다. | Linux 데스크톱 앱, 로컬 생산성 도구, 실행/종료 UX |
@@ -164,7 +179,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
 
 | Project | What It Shows | Stack |
 | --- | --- | --- |
-| [kernel-proc-lab](https://github.com/jiyoon99/kernel-proc-lab) | `/proc`, character device, ioctl, poll stream, TUI, DKMS/Debian 패키징까지 연결한 Linux kernel driver 포트폴리오 | C, Linux Kernel Module, ioctl, procfs, DKMS, Debian |
+| [kernel-proc-lab](https://github.com/jiyoon99/kernel-proc-lab) | `/proc`, character device, ioctl, poll stream, self-starting TUI, collector, systemd boot setup, DKMS/Debian 패키징까지 연결한 Linux kernel driver 포트폴리오 | C, Linux Kernel Module, ioctl, procfs, systemd, DKMS, Debian |
 | [shop - EAT US](https://github.com/jiyoon99/shop) | 음식점/카페 정보 공유 웹사이트를 포트폴리오 형태로 정리한 Java Spring Boot 프로젝트. 회원, 인증/인가, JPA DB 설계, 이미지 업로드, 장바구니/주문 흐름 포함 | Java, Spring Boot, Spring Security, JPA, QueryDSL, Thymeleaf, MySQL |
 | [linux-system-monitor](https://github.com/jiyoon99/linux-system-monitor) | Linux 서버, Docker, Ollama 상태를 한 화면에서 확인하고 로컬 AI 분석으로 운영 판단을 돕는 대시보드 | Python, FastAPI, Docker, nginx, Chart.js, Ollama |
 | [linux-desktop-widget](https://github.com/jiyoon99/linux-desktop-widget) | Docker/Ollama/로컬 서비스 상태를 데스크톱 위젯으로 빠르게 확인하는 Linux 운영 도구 | Python, GTK, Linux, Docker, Ollama |
@@ -184,6 +199,9 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
 - kernel ring buffer에 최근 이벤트를 유지하고 `poll`로 새 메시지를 깨우는 흐름
 - DKMS, udev, systemd, logrotate, Debian package까지 붙인 이유
 - `labtop`이 모듈 빌드, 로드, device node 복구, TUI 실행을 자동화하는 방식
+- `labtop` 실행만으로 user tools 빌드, 모듈 로드, heartbeat, collector 준비까지 연결한 방식
+- `/dev/kernel_proc_lab`가 없을 때 `/proc/kernel_proc_lab` fallback으로 상태와 JSONL 이벤트 수집을 유지한 방식
+- 짧은 터미널에서도 readiness, collector 상태, counter 그래프, 최신 이벤트 로그가 보이도록 TUI를 압축한 방식
 
 ### Shop - EAT US
 
