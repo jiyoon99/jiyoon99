@@ -21,7 +21,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
 
 ---
 
-## Profile
+## Profile / 프로필
 
 - Linux kernel module을 직접 구현해 `/proc`, character device, `ioctl`, `poll`, sysfs/debugfs/tracepoint까지 연결한 드라이버 lab을 만들었습니다.
 - 실무에서 반복되는 점검 절차를 자동화하고, 결과를 리포트로 남기는 도구를 직접 설계했습니다.
@@ -31,14 +31,14 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
 - Windows PowerShell과 Windows Forms로 장비 검수, 드라이버 점검, QC 자동화 도구를 만들었습니다.
 - Unity와 C#으로 2D 게임 프로젝트를 구현하고, 실행 빌드와 문서 중심의 포트폴리오로 정리했습니다.
 
-## AI Workflow
+## AI Workflow / AI 활용 방식
 
 - ChatGPT/Codex를 활용해 요구사항을 작업 단위로 쪼개고, 구현 후 README와 실행 문서를 함께 정리합니다.
 - Ollama 기반 로컬 LLM을 Linux 모니터링 도구에 연결해 서버 상태 요약과 점검 보조 흐름을 구성했습니다.
 - AI가 만든 결과를 그대로 쓰지 않고, 실행 결과, 예외 케이스, 보안/개인정보 노출 여부를 검토한 뒤 반영합니다.
 - 반복적인 검색, 로그 해석, 리포트 초안 작성에 AI를 활용해 작업 속도를 높이고 검토 가능한 산출물로 남깁니다.
 
-## For Interviewers
+## For Interviewers / 면접관 참고
 
 빠르게 보실 때는 아래 네 가지 흐름으로 봐주시면 됩니다.
 
@@ -51,7 +51,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
 | Local Productivity Tools | Linux 데스크톱에서 매번 확인하던 상태를 위젯/대시보드로 자동화 | [linux-desktop-widget](https://github.com/jiyoon99/linux-desktop-widget), [linux-system-monitor](https://github.com/jiyoon99/linux-system-monitor) |
 | Work Automation | 실제 장비 점검 반복 작업을 GUI, 리포트, 테스트가 있는 도구로 정리 | [driver-check-helper](https://github.com/jiyoon99/driver-check-helper), [inspection-automation](https://github.com/jiyoon99/inspection-automation), [usb-qc-automation](https://github.com/jiyoon99/usb-qc-automation) |
 
-## Languages
+## Languages / 사용 언어
 
 <p>
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
@@ -64,7 +64,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
   <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
 </p>
 
-## Skills Summary
+## Skills Summary / 기술 요약
 
 | Category | Skills |
 | --- | --- |
@@ -79,9 +79,9 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
 | Testing / Release | GitHub Actions, ShellCheck, smoke test, stress test, ABI layout test, release checklist, Debian packaging, GitHub Release |
 | Game / UI | Unity, C#, 2D game loop, GTK desktop widget, terminal dashboard, Windows Forms GUI |
 
-## Tech Stack
+## Tech Stack / 기술 스택
 
-### Linux Kernel / Driver
+### Linux Kernel / Driver / 리눅스 커널·드라이버
 
 <p>
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
@@ -92,7 +92,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
   <img src="https://img.shields.io/badge/Debian%20Package-A81D33?style=for-the-badge&logo=debian&logoColor=white" />
 </p>
 
-### Backend / AI
+### Backend / AI / 백엔드·AI
 
 <p>
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
@@ -107,7 +107,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
   <img src="https://img.shields.io/badge/WebSocket-111827?style=for-the-badge&logo=socketdotio&logoColor=white" />
 </p>
 
-### Linux / Infra
+### Linux / Infra / 리눅스·인프라
 
 <p>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
@@ -118,7 +118,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
   <img src="https://img.shields.io/badge/systemd-111827?style=for-the-badge&logo=linux&logoColor=white" />
 </p>
 
-### Data / Runtime
+### Data / Runtime / 데이터·런타임
 
 <p>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
@@ -127,7 +127,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
 
-### Monitoring / Visualization
+### Monitoring / Visualization / 모니터링·시각화
 
 <p>
   <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
@@ -137,7 +137,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
   <img src="https://img.shields.io/badge/%2Fproc%20%2Fsys-111827?style=for-the-badge&logo=linux&logoColor=white" />
 </p>
 
-### Windows Automation / Desktop
+### Windows Automation / Desktop / Windows 자동화·데스크톱
 
 <p>
   <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
@@ -147,7 +147,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
   <img src="https://img.shields.io/badge/GTK-7FE719?style=for-the-badge&logo=gtk&logoColor=black" />
 </p>
 
-### Game Development
+### Game Development / 게임 개발
 
 <p>
   <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" />
@@ -155,7 +155,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
   <img src="https://img.shields.io/badge/Windows%20Build-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
 </p>
 
-### Documentation
+### Documentation / 문서화
 
 <p>
   <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
@@ -163,7 +163,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
   <img src="https://img.shields.io/badge/Runbooks-2563EB?style=for-the-badge" />
 </p>
 
-## Linux Projects at a Glance
+## Linux Projects at a Glance / Linux 프로젝트 요약
 
 면접에서 설명하기 쉬운 리눅스 프로젝트를 우선순위대로 정리했습니다.
 
@@ -175,7 +175,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
 | [Linux Desktop Widget](https://github.com/jiyoon99/linux-desktop-widget) | 개발 중 Docker와 Ollama가 켜져 있는지 터미널을 열지 않고 보고 싶었습니다. | Python GTK 위젯, 3초 자동 갱신, Docker/포트/Ollama 상태 체크, autostart 스크립트를 만들었습니다. | Linux 데스크톱 앱, 로컬 생산성 도구, 실행/종료 UX |
 | [Linux Web Log SQL Analyzer](https://github.com/jiyoon99/linux-web-log-sql-analyzer) | 웹 서버 access log를 SQL로 분석하는 흐름을 보여주고 싶었습니다. | Nginx/Apache 로그 파서, SQLite 적재, 집계 SQL 리포트, 로컬 웹 대시보드를 구현했습니다. | 로그 처리, DB schema/index, SQL aggregation, CLI 자동화 |
 
-## Representative Projects
+## Representative Projects / 대표 프로젝트
 
 | Project | What It Shows | Stack |
 | --- | --- | --- |
@@ -190,7 +190,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
 | [usb-qc-automation](https://github.com/jiyoon99/usb-qc-automation) | USB/하드웨어 출고 전 QC 절차를 터미널 대시보드 흐름으로 자동화한 스크립트 | Batch, PowerShell, Windows |
 | [unity-game-portfolio](https://github.com/jiyoon99/unity-game-portfolio) | Unity C# 기반 2D 게임 결과물을 실행 빌드와 구현 문서로 정리한 게임 개발 포트폴리오 | Unity, C#, Windows Build |
 
-## Interview Notes
+## Interview Notes / 면접 설명 포인트
 
 ### Kernel Proc Lab
 
@@ -267,7 +267,7 @@ Linux 커널 모듈, Java/Spring Boot 웹 서비스, Linux 서버 모니터링, 
 - `VamGame`의 적 스폰, 무기 처리, 레벨업, 오브젝트 풀링 구조
 - 빌드 파일, Unity package, 게임별 README를 분리한 포트폴리오 구성
 
-## Strengths
+## Strengths / 강점
 
 - 반복 업무를 스크립트로 끝내지 않고, GUI, 리포트, 문서, 실행 방법까지 정리합니다.
 - AI를 빠른 초안 생성 도구로만 쓰지 않고, 구현 검토와 운영 판단을 돕는 워크플로우로 연결합니다.
